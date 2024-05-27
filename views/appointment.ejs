@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Request Appointment</title>
+</head>
+<body>
+    <nav>
+        <div class="left">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Clinic</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a href="/signup">Sign up</a>
+            <a href="/appointment">Request Appointment </a>
+        </div>
+    </nav>
+    <main class="appointment">
+        <div class="con">
+            <h1>Schedule your appointment</h1>
+            <p>Note that you will recieve an email after 12hours to confirm your appointment</p>
+            <div class="outer">
+                <div class="left">
+                    <form action="" method="post">
+                        <label for="">Contact Details</label>
+                        <input type="text" name="name" placeholder="your fullname"><br><br>
+                        <input type="number" name="number" placeholder="phone number"><br><br>
+                        <input type="email" name="email" placeholder="email">
+                        <br><br>
+                        <button>Send my application</button>
+                    </form>
+                </div>
+                <div class="right">
+                    <form action="" method="post">
+                        <label for="">Schedule</label>
+                        <input type="text" name="Drname" placeholder="doctor name"><br><br>
+                        <input type="date" name="date" placeholder="date"><br><br>
+                        <input type="time" name="time" placeholder="time">
+                        <br><br>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
